@@ -1,27 +1,40 @@
 {
-  "name": "ember-tooltips-fourem",
-  "version": "3.0.1",
-  "description": "Easy and extendible tooltips for Ember",
-  "keywords": [
-    "ember-addon",
-    "tooltips",
-    "tooltip",
-    "popover",
-    "popovers",
-    "htmlbars"
+  "_args": [
+    [
+      "ember-tooltips@3.0.0-beta.2",
+      "/Users/shanekoss/Documents/Coding_Projects/4em-Ember"
+    ]
   ],
-  "license": "MIT",
+  "_development": true,
+  "_from": "ember-tooltips@3.0.0-beta.2",
+  "_id": "ember-tooltips@3.0.0-beta.2",
+  "_inBundle": false,
+  "_integrity": "sha1-2+SFVOLOnwTCfEFdpdATK2+wb4Y=",
+  "_location": "/ember-tooltips",
+  "_phantomChildren": {
+    "broccoli-persistent-filter": "1.4.3",
+    "hash-for-dep": "1.2.3",
+    "json-stable-stringify": "1.0.1",
+    "semver": "5.5.0",
+    "strip-bom": "2.0.0"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "ember-tooltips@3.0.0-beta.2",
+    "name": "ember-tooltips",
+    "escapedName": "ember-tooltips",
+    "rawSpec": "3.0.0-beta.2",
+    "saveSpec": null,
+    "fetchSpec": "3.0.0-beta.2"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/ember-tooltips/-/ember-tooltips-3.0.0-beta.2.tgz",
+  "_spec": "3.0.0-beta.2",
+  "_where": "/Users/shanekoss/Documents/Coding_Projects/4em-Ember",
   "author": "",
-  "directories": {
-    "doc": "doc",
-    "test": "tests"
-  },
-  "repository": "",
-  "scripts": {
-    "build": "ember build",
-    "start": "ember server",
-    "test": "ember try:each"
-  },
   "dependencies": {
     "broccoli-funnel": "^2.0.1",
     "broccoli-merge-trees": "^2.0.0",
@@ -32,6 +45,7 @@
     "popper.js": "^1.12.5",
     "tooltip.js": "^1.1.5"
   },
+  "description": "Easy and extendible tooltips for Ember",
   "devDependencies": {
     "autoprefixer": "^6.7.2",
     "broccoli-asset-rev": "^2.4.5",
@@ -60,11 +74,32 @@
     "eslint-plugin-netguru-ember": "^1.6.5",
     "loader.js": "^4.2.3"
   },
-  "engines": {
-    "node": "^4.5 || 6.* || >= 7.*"
+  "directories": {
+    "doc": "doc",
+    "test": "tests"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config",
     "demoURL": "http://sir-dunxalot.github.io/ember-tooltips/"
-  }
+  },
+  "engines": {
+    "node": "^4.5 || 6.* || >= 7.*"
+  },
+  "keywords": [
+    "ember-addon",
+    "tooltips",
+    "tooltip",
+    "popover",
+    "popovers",
+    "htmlbars"
+  ],
+  "license": "MIT",
+  "name": "ember-tooltips",
+  "repository": "",
+  "scripts": {
+    "build": "ember build",
+    "start": "ember server",
+    "test": "ember try:each"
+  },
+  "version": "3.0.0-beta.2"
 }
