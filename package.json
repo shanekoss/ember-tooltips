@@ -93,7 +93,7 @@
     "htmlbars"
   ],
   "license": "MIT",
-  "name": "ember-tooltips",
+  "name": "ember-tooltips-fourem",
   "repository": "",
   "scripts": {
     "build": "ember build",
