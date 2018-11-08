@@ -100,5 +100,5 @@
     "start": "ember server",
     "test": "ember try:each"
   },
-  "version": "3.0.2"
+  "version": "3.0.3"
 }
